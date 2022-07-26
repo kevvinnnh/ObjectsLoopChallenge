@@ -1,0 +1,28 @@
+.recipes {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.recipes>div {
+    margin: 2em;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: black);
+}
+
+.information {
+    font-size: 19px;
+    line-height: 1.7;
+}
+
+.allRecipes {
+    background-color: red ;
+    padding: 1rem;
+}
